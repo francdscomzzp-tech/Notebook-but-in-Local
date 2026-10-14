@@ -15,3 +15,15 @@ class AI:
     )
     print(response['message']['content'])
     print(response.message.content)
+
+class AI_flashcard:
+    response: ChatResponse = chat(
+        model='gemma4',
+        messages=[
+            {
+                'role': 'user',
+                'content': 'Use the pdf for create the 20 flashcard' ,
+            },
+        ],
+    )
+    
