@@ -1,0 +1,19 @@
+# Logs
+*.log
+*.tmp
+
+# IDE files
+.idea/
+__pycache__/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# System files
+*.swp
+*.bak
+
+# Project-specific files
+*.db
+*.sqlite*
